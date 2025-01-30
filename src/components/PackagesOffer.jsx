@@ -66,7 +66,7 @@ const PackagesOffer = () => {
         description={
           "Embark on a dream journey with our curated travel packages. Whether it's romance, adventure, or solo exploration, find the perfect deal and create unforgettable memories!"
         }
-        videoSrc={"/packagevideo.mp4"}
+        videoSrc={"/packagevideo1.mp4"}
       />
       <div className=" font-opensans p-5 space-y-5">
         <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold text-center ">

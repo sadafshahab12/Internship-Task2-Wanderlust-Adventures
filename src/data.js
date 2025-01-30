@@ -62,3 +62,15 @@ export const testimonials = [
     image: "/testimonial/t-3.png",
   },
 ];
+
+export const contactInfo = {
+  address: "123 Wanderlust Avenue, Cityville, 12345",
+  email: "info@wanderlust.com",
+  phone: "+1 234 567 890",
+  socialLinks: {
+    instagram: "https://instagram.com/sadafshahab12",
+    linkedin: "https://www.linkedin.com/in/sadaf-shahab-ssr123",
+    twitter: "https://twitter.com/sadafshahab12",
+  },
+};
+

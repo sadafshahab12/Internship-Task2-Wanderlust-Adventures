@@ -32,19 +32,19 @@ const Navbar = () => {
           <li className="navLink-hover" onClick={closeMenu}>
             <Link to="/">Home</Link>
           </li>
-          <li className="navLink-hover">
+          <li className="navLink-hover"  onClick={closeMenu}>
             <Link to="/destinations">Destinations</Link>
           </li>
-          <li className="navLink-hover">
+          <li className="navLink-hover"  onClick={closeMenu}>
             <Link to="/packages">Packages</Link>
           </li>
-          <li className="navLink-hover">
-            <Link to="/contact-us">Contact US</Link>
+          <li className="navLink-hover"  onClick={closeMenu}>
+            <Link to="/contactus">Contact US</Link>
+          </li>
+          <li>
+            <Button btnText="Book Now" />
           </li>
         </ul>
-        <div>
-          <Button btnText="Book Now" />
-        </div>
       </nav>
     </div>
   );

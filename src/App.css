@@ -5,7 +5,7 @@
   --color-shadesblue: #243954;
   --color-golden: #d39c25;
   --color-mint-500: oklch(0.72 0.11 178);
-  --font-opensans : "Open Sans";
+  --font-opensans: "Open Sans";
   --breakpoint-xxs: 25rem;
   --breakpoint-xs: 35rem;
   --breakpoint-sm: 40rem;
@@ -15,11 +15,15 @@
   --breakpoint-2xl: 100rem;
   --breakpoint-3xl: 120rem;
 }
-.navLink-hover{
-    @apply hover:text-golden hover:font-semibold transition-all ease-in duration-300
+.navLink-hover {
+  @apply hover:text-golden hover:font-semibold transition-all ease-in duration-300;
 }
-.text-shadow{
-    text-shadow:1px 1px 1px #d39c25 ;
-    
-
+.forminput {
+  @apply border-2 border-mint-500 py-3 px-4 outline-none placeholder:text-gray-100 focus:shadow-md focus:shadow-mint-500  transition-all ease-in duration-300 text-white sm:text-lg text-sm;
+}
+.contacticon {
+  @apply text-2xl  text-golden
+}
+.text-shadow {
+  text-shadow: 1px 1px 1px #d39c25;
 }
