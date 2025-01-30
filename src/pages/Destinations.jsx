@@ -16,7 +16,7 @@ const Destinations = () => {
         }
  
       />
-      <div className="mt-12">
+      <div>
         <FeaturedDestination />
       </div>
     </>

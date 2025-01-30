@@ -36,3 +36,29 @@ export const destinations = [
       "A perfect blend of breathtaking landscapes, vibrant culture, and stunning coastlines, Cape Town is a must-visit for adventurers and nature lovers.",
   },
 ];
+export const testimonials = [
+  {
+    name: "Sophia Reynolds",
+    feedback:
+      "Our honeymoon was a dream come true! Everything was planned perfectly, from luxury stays to breathtaking experiences.",
+    image: "/testimonial/t-1.webp",
+  },
+  {
+    name: "Michael Thompson",
+    feedback:
+      "An unforgettable adventure! The tour was well-organized, and the destinations were stunning. Highly recommend!",
+    image: "/testimonial/t-2.webp",
+  },
+  {
+    name: "Daniel Foster",
+    feedback:
+      "An incredible travel experience! Everything was seamless, from booking to the guided tours. I’ll definitely book again!",
+    image: "/testimonial/t-4.jpg",
+  },
+  {
+    name: "Emily Carter",
+    feedback:
+      "A fantastic family trip! The package included great activities for all ages, making it a stress-free vacation.",
+    image: "/testimonial/t-3.png",
+  },
+];

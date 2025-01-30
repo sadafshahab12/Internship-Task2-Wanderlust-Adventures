@@ -12,7 +12,7 @@ const Navbar = () => {
   };
   return (
     <div
-      className={`bg-darkblue font-opensans py-5  lg:px-10 md:px-8 px-4 flex justify-between w-full fixed top-0 left-0 z-10`}
+      className={`bg-darkblue font-opensans py-5  lg:px-10 md:px-8 px-4 flex justify-between w-full fixed top-0 left-0 z-50`}
     >
       <div className="logo flex items-center xs:gap-5 gap-2 ">
         <HiMenuAlt2
