@@ -73,4 +73,3 @@ export const contactInfo = {
     twitter: "https://twitter.com/sadafshahab12",
   },
 };
-
