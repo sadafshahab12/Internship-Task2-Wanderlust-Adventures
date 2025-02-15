@@ -1,4 +1,4 @@
-import React from "react";
+import  { useEffect } from "react";
 import FeaturedDestination from "../components/FeaturedDestination";
 import PagesHero from "../components/ui/PagesHero";
 

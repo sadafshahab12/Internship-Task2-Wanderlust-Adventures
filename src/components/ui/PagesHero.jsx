@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const PagesHero = ({ videoSrc, heading, tagline, description }) => {
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import PackagesOffer from "../components/PackagesOffer";
 
 const Packages = () => {

@@ -1,4 +1,4 @@
-import React from 'react'
+import  { useEffect } from 'react'
 import Contact from '../components/Contact'
 
 const ContactUs = () => {
